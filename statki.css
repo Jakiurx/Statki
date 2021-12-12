@@ -31,17 +31,25 @@ td{
 	background-color: bisque;
 	text-align: center;
 }
+#center{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
 #left{
-	width: 50%;
+	min-width: 500px;
 	text-align: center;
 	background-color: chocolate;
 	padding-bottom: 10px;
+	flex: 1;
 }
 #right{
-	width: 50%;
+	min-width: 500px;
 	text-align: center;
 	background-color: chocolate;
 	padding-bottom: 10px;
+	flex: 1;
 }
 #panel{
 	float: left;
